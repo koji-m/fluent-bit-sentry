@@ -1,0 +1,13 @@
+[package]
+name = "fluent-bit-sentry"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fluentbit = "0.1.1"
+sentry = "0.23.0"
+rmpv = { version = "1.0.0", features = ["with-serde"] }
+serde = "1.0.132"
+serde_json = "1.0.73"
+lazy_static = "1.4.0"
+libc = "0.2.112"
